@@ -10,7 +10,7 @@ function login(){
      successMsg.innerText = "Not success";
 
      if (email === "") {
-    emailError.innerText = "Email is required";
+    emailError.innerText = "Email is required,plese entered";
     return;
   }
 
